@@ -1,0 +1,60 @@
+/*
+    EJERCICIO 6 APARTADO 13
+    ERICK CHANGO
+    ENERO 2021
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 5px;
+}
+h1{
+    color: #248162;
+}
+h2{
+    color: blue;
+}
+table{
+    border-collapse: collapse;
+    
+}
+th, td{
+    border: 2px solid black;
+    padding: 4px;
+    
+}
+.especial{
+    color: gold;
+}
+td{
+    color: green;
+}
+s{
+    color: gold;
+}
+.row{
+    color: red;
+}
+.fila2{
+    color: red;
+}
+#adicional{
+    color: greenyellow;
+}
+#especial{
+    color: violet;
+}
+.donec{
+    color: green;
+}
+.purus{
+    color: blueviolet;
+}
+.titulotabla{
+    color: blue;
+}
+.destacado{
+    color: gold;
+}

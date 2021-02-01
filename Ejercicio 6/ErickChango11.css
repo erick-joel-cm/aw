@@ -1,0 +1,73 @@
+/*
+    EJERCICIO 6 APARTADO 11
+    ERICK CHANGO
+    ENERO 2021
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1cd0d0;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: #1f7256;
+}
+.encabezado{
+    margin: 0px 10px 0px 10px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    color: #205951;
+}
+.imgbm, .imgng{
+    width: 200px;
+    border: 10px solid orange;
+    outline: 10px solid #ff6c00;
+    margin: 10px;
+    
+}
+#museobm, .galeria{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border: 10px solid #ff6c00;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px
+}
+.tbm, .nationg{
+    padding-left: 30px;
+}
+.texttbm, .textng{
+    text-align: justify;
+}
+.museotate, .natural{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border: 10px solid #ff6c00;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.tateb, .nhistory{
+    padding-right: 30px;
+}
+.texttate, .textnatural{
+    text-align: justify;
+}
+.imgtate, .imgnatural{
+    width: 200px;
+    border: 10px solid orange;
+    outline: 10px solid #ff6c00;
+    margin: 10px;
+    
+}
+.natural{
+    margin-bottom: 20px;
+}

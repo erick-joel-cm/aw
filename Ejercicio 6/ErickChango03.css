@@ -1,0 +1,63 @@
+/*
+    EJERCICIO 6: APARTADO 3
+    ERICK CHANGO
+    DICIEMBRE 2020
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-style:italic;
+}
+body{
+    border: 5px solid grey;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixe;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+}
+.contenedor{
+    display: flex;
+    height: 100%;
+    background-color: #e3e3e3
+    
+}
+aside{
+    background-color: white;
+    flex: 1 0 30%;
+    margin: auto;
+    text-align: justify;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0px;
+    background-color: #e3e3e3;
+    height: 100%;
+    
+}
+img{
+    width: 65%;
+    justify-content: center;
+}
+main section{
+    background-color: orange;
+    margin-bottom: 58px;
+    height: 100%;
+    
+}
+p{
+    margin: 20px;
+}
+h3{
+    padding: 20px;
+}

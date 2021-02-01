@@ -1,0 +1,83 @@
+/*
+    EJERCICIO 6: APARTADO 2
+    ERICK CHANGO
+    DICIEMBRE 2020
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+}
+img{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    margin-top: 12%;
+}
+body{
+    font-family: sans-serif;
+    display: 
+}
+header{
+    border: 1px solid white;
+}
+a{
+    text-decoration: none;
+    
+}
+#gmail{
+    float: right;
+}
+#tienda{
+    float: left;
+}
+a
+}sc
+.busqueda, .suerte{
+    display: flex;
+    justify-content: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+input, .buscar{
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 1px gray solid;
+    justify-content: center;
+}
+input{
+    width: 60%;
+}
+footer{
+    background: #d3cfcf;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    font-size: 80%;
+    
+}
+footer a{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+#izquierda {
+    float: left;
+}
+#derecha {
+    float: right;
+}
+.spain {
+    padding-bottom: 0px;
+}
+#spainw{
+    justify-content: flex-start;
+}
+#google{
+    float: left;
+}

@@ -1,0 +1,22 @@
+/*
+    EJERCICIO 6 APARTADO 15
+    ERICK CHANGO
+    ENERO 2021
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 50px;
+    margin-bottom: 100px;
+    margin: 50px;
+}
+img{
+    width: 100%;
+    border: 2px solid black;
+    padding: 10%;
+}
