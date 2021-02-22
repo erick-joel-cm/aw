@@ -1,0 +1,84 @@
+/*
+    PORTAFOLIO PERSONAL
+    ENERO 2020
+    ERICK CHANGO
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/musica.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Potta One', cursive;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+}
+.barra{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 5px;
+    
+}
+.barra a{
+    display: flex;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    width: 100%;
+    
+}
+.barra>:hover{
+    border-bottom: 2px solid white;
+    transform: scale(1.02);
+    transition: all 1s ease;
+}
+.genero{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.logo{
+    width: 40%;
+    border: 5px solid orange;
+}
+.imagen{
+    width: 100%;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+}
+.instagram, .youtube{
+    width: 24px;
+    float: right;
+    margin-left: 10px;
+}
+.facebook{
+    width: 20px;
+    float: right;
+    margin-left: 10px;
+}

@@ -1,0 +1,117 @@
+
+
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/artistas.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Potta One', cursive;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+}
+.barra{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 5px;
+    
+}
+.barra a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    
+}
+h1{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px dashed blue;
+    border-radius: 30px;
+}
+
+.foto{
+    border: 2px solid red;
+    padding: 5px;
+    margin: 20px;
+    width: 50%
+}
+.blateral{
+    display: flex;
+}
+aside{
+    display: grid;
+    grid-auto-flow: row;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 50%;
+    margin-top: 100px
+}
+aside a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+aside>:hover{
+    background-color: #ff4141;
+    transform: scale(1.1);
+    transition: all 1s ease;
+    color: white;
+    
+}
+.artista{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+p{ 
+    padding: 20px;
+    border: 4px dashed ;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 5px solid red;
+    border-collapse: collapse;
+}
+table{
+    width: 60%;
+    margin: auto;
+}
+.instagram{
+    margin-top: 20px;
+    width: 10%;
+}
+iframe{
+    margin-top: 20px;
+    border-radius: 20px;
+}
+

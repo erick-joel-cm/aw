@@ -1,0 +1,41 @@
+/*
+
+
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/mejores-exitos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Potta One', cursive;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+}
+.barra{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 5px;
+    
+}
+.barra a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    
+}

@@ -1,0 +1,61 @@
+/*
+
+
+*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/eventos.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Potta One', cursive;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+}
+.barra{
+    background-color: black;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 5px;
+    
+}
+.barra a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    
+}
+.ecuador {
+    display: flex;
+    background-color: #00000080;
+    color: white;
+    padding: 20px;
+    border: 10px solid #26a7f7;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+main{
+    width: 70%;
+    margin: 20px; 
+}
+img{
+    width: 200px;
+    border: 10px solid white;
+    padding: 2px;
+    margin: 10px;
+}
